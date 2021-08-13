@@ -1,0 +1,346 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*manin header start*/
+nav.navigation {
+    width: 100%;
+    padding: 20px 30px;
+    margin: 0;
+    position: relative;
+}
+.nav-logo {
+    width: 30%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+.nav-manu {
+    width: 70%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    float: right;
+}
+.nav22 {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+ul.nav-ul {
+    width: 80%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+    text-align: right;
+    padding-top: 8px;
+}
+.btn-sss {
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    float: right;
+}
+li.manuli {
+    display: inline-block;
+}
+li.manuli a {
+    padding: 0 30px;
+    color: #000;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+li.manuli a:hover{
+	color: #f6d601;
+}
+a.Button-sing {
+    background: #f6d601;
+    display: inline-block;
+    padding: 7px 35px;
+    border-radius: 30px;
+    color: #000;
+    font-size: 17px;
+    text-decoration: none;
+}
+a.Button-sing:hover{
+	color: #fff;
+}
+/*main header End*/
+/*banner section Start*/
+section.bannersec {
+    background: url(../img/banner.jpg);
+    height: 650px;
+    align-items: center;
+    padding-top: 118px;
+    background-size: 100% 100%;
+}
+.textbg {
+    text-align: center;
+}
+.textbg h1 {
+    color: #fff;
+    font-size: 67px;
+    line-height: 90px;
+    padding-bottom: 35px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+}
+.textbg strong {
+    color: #fff;
+    display: block;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 10px;
+    font-family: 'Righteous', cursive;
+}
+.textbg span {
+    color: #f6d601;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: bold;
+    font-family: 'Righteous', cursive;
+    display: block;
+    padding-bottom: 20px;
+}
+.textbg p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    padding-bottom: 60px;
+}
+.textbg a {
+    background: #fff;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    padding: 13px 0;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    max-width: 190px;
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*banner section End*/
+/*car section start*/
+section.carsec {
+    background: #fff;
+    margin-top: 90px;
+}
+.titlepage h2 {
+    color: #030100;
+    margin-bottom: 20px;
+    font-size: 45px;
+    padding: 0;
+    line-height: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+
+.titlepage {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.titlepage span {
+    font-size: 17px;
+    line-height: 28px;
+    color: #23262d;
+}
+.carrow1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.ckbi {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.car-boxh {
+    text-align: center;
+}
+.car-boxh figure {
+    margin: 0;
+}
+.car-boxh figure img {
+    width: 100%;
+}
+.car-boxh h3 {
+    margin-top: 30px;
+    background: #f6d601;
+    color: #000;
+    font-size: 30px;
+    line-height: 28px;
+    height: 84px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+    font-weight: bold;
+}
+/*car section End*/
+/*choice car Start*/
+.choicecar {
+    background: url(../img/bg.jpg);
+    margin-top: 90px;
+    padding: 100px 0px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.rowchoice {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+form.form-main {
+    padding: 50px 50px 50px 40px;
+    background: #fff;
+}
+.title_page {
+    padding-bottom: 60px;
+    text-align: center;
+}
+.title_page h2 {
+    color: #181818;
+    font-size: 30px;
+    text-transform: none;
+    line-height: 40px;
+}
+ul.un-list {
+    list-style: none;
+}
+select.form-select.for-njo {
+    padding: 12px 300px 12px 14px;
+    margin: 4px 0 20px 0;
+}
+input.contactus1 {
+    padding: 10px 268px 10px 20px;
+    margin-bottom: 12px;
+}
+a.btnfind {
+    background: #000;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 11px 0;
+    margin-top: 30px;
+}
+/*chice car end*/
+/*choose section start*/
+section.choosesec span {
+    font-size: 17px;
+    line-height: 28px;
+}
+.numberbox span {
+    background: #23262d;
+    color: #fff;
+    /*padding: 20px 27px;*/
+    display: inline-block;
+    border: #f6d601 solid 5px;
+    border-radius: 50px;
+    font-size: 20px!important;
+    margin-bottom: 20px;
+    width: 100px;
+    height: 100px;
+    line-height: 82px!important;
+
+}
+.numberbox {
+    text-align: center;
+}
+section.choosesec {
+    margin-top: 80px;
+}
+/*choose section end*/
+/*slider section start*/
+section.slider2 {
+    background: #23262d;
+    margin-top: 40px;
+    padding-bottom: 120px;
+    padding-top: 60px;
+}
+.titlepage h2 {
+    color: #fff;
+}
+.hetjs {
+    background: #fff;
+    margin: 0 40px;
+}
+.crosslayout {
+    transform: skew(-20deg);
+}
+.uogsi {
+    text-align: center;
+    z-index: 1;
+
+}
+.crossimg figure {
+    position: relative;
+    z-index: 1;
+}
+.boxtext {
+    padding: 56px 50px;
+    transform: skew(20deg);
+}
+.crossimg {
+    margin-bottom: -60px;
+}
+
+/*slider section end*/
+/*footer start*/
+.footer {
+    font-family: poppns;
+    padding-top: 50px;
+    text-align: center;
+}
+.numbercall h3 {
+    font-size: 50px;
+    line-height: 60px;
+    color: #414141;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.num-jbk {
+    padding-top: 20px;
+}
+.num-jbk h3 {
+    font-size: 40px;
+    line-height: 50px;
+    color: #414141;
+    font-weight: bold;
+
+}
+strong.multi {
+    color: #f6d601;
+}
+.copyright {
+    background: #23262d;
+    padding: 20px 0;
+    margin-top: 43px;
+    color: #fff;
+}
+.copyright p {
+    font-size: 18px;
+}
+.copyright a {
+    text-decoration: none;
+    color: white;
+    margin-left: 8px;
+}
+/*footer End*/
